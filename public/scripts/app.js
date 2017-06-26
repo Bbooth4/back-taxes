@@ -17,7 +17,7 @@ function createPosts(post) {
     </div>
     `
   return $posts;
-}
+};
 
 const renderPosts = (posts) => {
   console.log('renderPosts')
@@ -38,21 +38,21 @@ const loadPosts = () => {
   });
 };
 
-// const checkIfLoggedIn = () => {
-//   console.log('checkIfLoggedIn');
-//   $.ajax({
-//     method: 'POST',
-//     url: '/login'
-//   }).done((data) => {
-//     console.log('data', data);
-//   }).fail((err) => {
-//     console.error(err);
-//   });
-// };
+const checkIfLoggedIn = () => {
+  console.log('checkIfLoggedIn');
+  $.ajax({
+    method: 'POST',
+    url: '/login'
+  }).done((data) => {
+    console.log('data', data);
+  }).fail((err) => {
+    console.error(err);
+  });
+};
 
 $(() => {
 
   loadPosts();
-  // checkIfLoggedIn();
+  checkIfLoggedIn();
 
 });
