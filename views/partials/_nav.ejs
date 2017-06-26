@@ -1,0 +1,153 @@
+
+<ul id="dropdown1" class="dropdown-content collapsible collapsible-accordion">
+  <li><a href="#!">About Us</a></li>
+  <li><a href="#!">Testimonials</a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="#!">Bank Frozen</a></li>
+  <li><a href="#!">Wages Garnished</a></li>
+  <li><a href="#!">Outstanding Tax Returns</a></li>
+  <li><a href="#!">CRA Letters</a></li>
+  <li><a href="#!">Back Taxes Owing</a></li>
+  <li><a href="#!">Advice And Help</a></li>
+  <li><a href="#!">Elminate Penalty</a></li>
+  <li><a href="#!">Minimize Taxes</a></li>
+</ul>
+
+<ul id="dropdown3" class="dropdown-content">
+  <li><a href="#!">Personal Taxes</a></li>
+  <li><a href="#!">Self-Employed</a></li>
+  <li><a href="#!">Corporate</a></li>
+</ul>
+
+<ul id="dropdown4" class="dropdown-content">
+  <li><a href="#!">GBCA</a></li>
+  <li><a href="#!">Back Taxes Canada</a></li>
+  <li><a href="#!">Deceased Tax Returns</a></li>
+  <li><a href="#!">Many More</a></li>
+</ul>
+
+<ul id="dropdown5" class="dropdown-content">
+  <li><a href="#!">###-###-####</a></li>
+  <li><a href="#!">email</a></li>
+  <li><a href="#!">address</a></li>
+</ul>
+
+<ul id="slide-out" class="side-nav">
+  <li><div class="userView">
+    <div class="background">
+      <img src="images/tax.jpg">
+    </div>
+    <a href="#!user"><img class="circle" src="images/tax.jpg"></a>
+    <a href="#!name"><span class="white-text name">Late Tax Specialists</span></a>
+    <a href="#!email"><span class="white-text email">We Can Help</span></a>
+  </div>
+  <li class="no-padding">
+    <ul class="collapsible collapsible-accordion">
+      <li>
+        <a class="waves-effect collapsible-header" href="#!"><i class="material-icons">info_outline</i>About Our Firm</a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#!">About Us</a></li>
+            <li><a href="#!">Testimonials</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a class="waves-effect collapsible-header" href="#!"><i class="material-icons">description</i>Available Tax Services</a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#!">Bank Frozen</a></li>
+            <li><a href="#!">Wages Garnished</a></li>
+            <li><a href="#!">Outstanding Tax Returns</a></li>
+            <li><a href="#!">CRA Letters</a></li>
+            <li><a href="#!">Back Taxes Owing</a></li>
+            <li><a href="#!">Advice And Help</a></li>
+            <li><a href="#!">Elminate Penalty</a></li>
+            <li><a href="#!">Minimize Taxes</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a class="waves-effect collapsible-header" href="#!"><i class="material-icons">perm_identity</i>Business / Individuals</a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#!">Personal Taxes</a></li>
+            <li><a href="#!">Self-Employed</a></li>
+            <li><a href="#!">Corporate</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a class="waves-effect collapsible-header" href="#!"><i class="material-icons">language</i>Resources</a>
+        <div class="collapsible-body row">
+          <ul>
+            <li><a href="#!">GBCA</a></li>
+            <li><a href="#!">Back Taxes Canada</a></li>
+            <li><a href="#!">Deceased Tax Returns</a></li>
+            <li><a href="#!">Many More</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a class="waves-effect collapsible-header" href="#!"><i class="material-icons">contacts</i>Get In Touch With Us</a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#!">###-###-####</a></li>
+            <li><a href="#!">email</a></li>
+            <li><a href="#!">address</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<ul id="slide-out" class="side-nav">
+  <li><a href="#!">First Sidebar Link</a></li>
+  <li><a href="#!">Second Sidebar Link</a></li>
+  <li class="no-padding">
+    <ul class="collapsible collapsible-accordion">
+      <li>
+        <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#!">First</a></li>
+            <li><a href="#!">Second</a></li>
+            <li><a href="#!">Third</a></li>
+            <li><a href="#!">Fourth</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<nav class='nav-extended blue darken-4'>
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo t1">Late File Tax Return Specialists</a>
+    <a href="#" class="brand-logo t2">Late File Specialists</a>
+    <% if (admin) { %>
+      <div class='col s2'>
+        <a class="add-new-article waves-effect waves-light blue darken-2 btn right" href="#modal2">Add A New Article</a>
+        <form method="POST" action='/logout'>
+          <button class="btn waves-effect waves-light blue darken-2 right" type="submit" name="action">Logout</button>
+        </form>
+      </div>
+    <% } else { %>
+      <a class="waves-effect waves-light btn-flat right" href="#modal3">Admin</a>
+    <% } %>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    
+  </div>
+  <div class='nav-wrapper'>
+    <ul class="left hide-on-med-and-down">
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">About Our Firm</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Available Tax Services</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Business / Individuals</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Resources</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown5">Get In Touch With Us</a></li>
+    </ul>
+  </div>
+</nav>

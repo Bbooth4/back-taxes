@@ -1,0 +1,97 @@
+body {
+  background-color: white; 
+}
+
+.posts {
+  height: 400px;
+  overflow: auto; 
+  z-index: 100; 
+}
+
+.right {
+  float: right; 
+}
+
+.display {
+  display: flex !important;
+}
+
+nav {
+  position: fixed; 
+  z-index: 100;
+}
+
+nav .brand-logo {
+  margin-left: 0.5em;
+  margin-top: 0.5em; 
+  transition: 300ms;
+}
+
+nav .nav-wrapper ul li .dropdown-button{
+  /*position: relative;*/
+  top: -10px; 
+}
+
+.iconRow {
+  position: relative;
+  top: 8vh;
+}
+
+.dropdown-content li > a {
+  color: #1565c0 !important;
+}
+
+.dropdown-content li > a:hover {
+  background-color: #bbdefb !important;
+}
+
+.side-nav li > a:hover {
+  background-color: #bbdefb !important;
+}
+
+.side-nav .collapsible-header:hover {
+  background-color: #bbdefb !important;
+}
+
+.add-new-article {
+  margin-left: 5px; 
+}
+
+.logout {
+
+}
+
+nav div .t1 {
+  visibility: visible;
+  transition: 300ms;
+}
+
+nav div .t2 {
+  visibility: hidden;
+  transition: 300ms;
+}
+
+@media (max-width: 500px) {
+  nav div .t1 {
+    visibility: hidden;
+    transition: 300ms;
+  }
+
+  nav div .t2 {
+    visibility: visible;
+    transition: 300ms;
+  }
+}
+
+.sliderRow {
+  position: relative;
+  top: 9em;
+  transition: 300ms; 
+}
+
+/*@media (max-width: 768) {
+  .sliderRow {
+    top: 18vh;
+    transition: 300ms;
+  }
+}*/
