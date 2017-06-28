@@ -13,8 +13,6 @@ const morgan          = require('morgan');
 const cookieSession   = require('cookie-session');
 const models          = require("./models");
 const ejsLint         = require('ejs-lint');
-// const Koa             = require('koa');
-// const app             = new Koa();
 
 app.set("view engine", "ejs");
 

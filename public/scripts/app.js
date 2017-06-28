@@ -53,6 +53,6 @@ const checkIfLoggedIn = () => {
 $(() => {
 
   loadPosts();
-  checkIfLoggedIn();
+  checkIfLoggedIn(); 
 
 });
