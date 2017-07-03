@@ -1,4 +1,16 @@
 node_modules/
+.git/
+coverage/
+
+.dockerignore
+Dockerfile
+
+.gitignore
+.env
+.editorconfig
+.gitlab-ci.yml
+
+node_modules/
 public/styles
 .env
 *.log

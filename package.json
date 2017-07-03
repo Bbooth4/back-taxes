@@ -1,5 +1,5 @@
 {
-  "name": "node-skeleton",
+  "name": "back-taxes",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "start": "node server.js",
     "local": "./node_modules/.bin/nodemon --ignore public/"
   },
-  "author": "Lighthouse Labs",
+  "author": "Brandon Booth",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -29,9 +29,5 @@
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.30.4",
     "twilio": "^2.11.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.9.2",
-    "sqlite3": "^3.1.4"
   }
 }
