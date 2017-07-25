@@ -1,8 +1,8 @@
 "use strict";
 
-require('dotenv').config();
+require('dotenv').config({silent: true});
 
-const PORT            = process.env.PORT || 8080;
+const PORT            = process.env.PORT || 5001;
 const ENV             = process.env.ENV || "development";
 const express         = require("express");
 const bodyParser      = require("body-parser");
@@ -54,7 +54,7 @@ models.sequelize.sync({ force: false }).then(() => {
   app.post("/newPost", (req, res) => {
     models.post.create({
         url: req.body.url,
-        title: req.body.title, 
+        title: req.body.title,
         description: req.body.description
       }).then((response) => {
         console.log(response);
