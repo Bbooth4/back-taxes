@@ -14,8 +14,8 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "brandon",
-    "password": null,
+    "username": "labber",
+    "password": "labber",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
