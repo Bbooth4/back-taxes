@@ -27,7 +27,6 @@
     "nodemon": "^1.11.0",
     "pg": "^6.1.5",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^3.30.4",
-    "twilio": "^2.11.1"
+    "sequelize": "^3.30.4"
   }
 }
